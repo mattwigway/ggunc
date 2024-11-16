@@ -2,8 +2,19 @@
 
 `ggplot` themes for making plots following the [UNC style guide](https://identity.unc.edu)
 
-Currently contains the following functions:
+## Usage
 
-- `scale_color_unc` - discrete color scale using UNC colors
-- `scale_fill_unc` - discrete fill scale using UNC colors
-- `theme_unc` - theme to set elements of plot to match UNC guidelines—currently a duplicate of `ggplot`'s own `theme_bw`
+`ggunc` is not available on CRAN, but can be easily installed from Github:
+
+```r
+install.packages("devtools") # if not already installed
+devtools::install_github("mattwigway/ggunc")
+```
+
+Once it is installed, just running
+
+```r
+library(ggunc)
+```
+
+and including `+ theme_unc()` on all plots will style plots using UNC colors and typography standards. If you are using a discrete color or fill scale, `scale_color_unc()` and `scale_fill_unc()` will make them use UNC standard color palettes.
