@@ -17,4 +17,4 @@ Once it is installed, just running
 library(ggunc)
 ```
 
-and including `+ theme_unc()` on all plots will style plots using UNC colors and typography standards. If you are using a discrete color or fill scale, `scale_color_unc()` and `scale_fill_unc()` will make them use UNC standard color palettes.
+will style plots using UNC colors and typography standards. If you are using a discrete color or fill scale, `scale_color_unc()` and `scale_fill_unc()` will make them use UNC standard color palettes.
