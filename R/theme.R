@@ -3,7 +3,7 @@
 theme_unc = function () {
     theme_bw() +
         theme(
-            text=element_text(family="Open Sans"),
+            #text=element_text(family="Open Sans"),
             axis.title.y=element_text(margin=margin(r=15, unit="pt"))
         )
 }
