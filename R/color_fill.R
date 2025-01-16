@@ -4,12 +4,12 @@ COLORS = c(
     "#13294B", # Navy
 
     # Secondary
-    "#00A5AD", # Tile Teal
-    "#4F758B", # Basin Slate
     "#EF426F", # Azalea Pink
     "#00594C", # Longleaf Pine
     "#C4D600", # Davie Green
-    "#FFD100" # Sunburst Yellow
+    "#FFD100", # Sunburst Yellow
+    "#4F758B", # Basin Slate
+    "#00A5AD" # Tile Teal - hard to distinguish from Carolina Blue
 )
 
 #' UNC brand color palette: https://identity.unc.edu/brand/color-palette/
